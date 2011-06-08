@@ -50,5 +50,5 @@ command BX MiniBufExpl
 " => Startup stuff 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd VimEnter * TlistOpen
-autocmd VimEnter * NERDTree /home/develop/www/htdocs
+autocmd VimEnter * NERDTree ~/
 
