@@ -16,6 +16,7 @@ set shiftwidth=4
 set tabstop=4
 set smarttab
 "set fdm=indent
+set autoindent
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Color/display related
