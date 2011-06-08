@@ -1,1 +1,1 @@
-set runtimepath^=~/www/htdocs/leon/vimfiles
+set runtimepath^=~/.vim
