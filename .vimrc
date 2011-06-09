@@ -47,6 +47,9 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 command BX MiniBufExpl
 
+" Variables for NERDtree
+let g:NERDTreeWinSize = 50
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Startup stuff 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
