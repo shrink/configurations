@@ -1,5 +1,11 @@
 source $MYVIM/.vimruntime
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General settings 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible "enable VIM improvements
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Swap and Backup related 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -11,32 +17,34 @@ set noswapfile
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set expandtab
-set shiftwidth=4
-set tabstop=4
-set smarttab
-"set fdm=indent
-set autoindent
+set expandtab     "convert tabs to spaces
+set shiftwidth=4  "length for indentation
+set tabstop=4     "length for tabs
+set smarttab      "enable smart indetation
+"set fdm=indent    "set indentation mode
+set autoindent    "enable auto indentation
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Color/display related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-color slate 
-set hls!
-syntax enable
-set number
+color slate     "choose color scheme
+set hls!        "highlight search hits
+syntax enable   "enable syntax highlighting
+set showmatch   "show matching braces/brackets/parens
+set number      "display line numbers
+set cul         "highlight current line
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Search related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set ignorecase
-set incsearch
-set smartcase
+set ignorecase  "make search case insensitive
+set incsearch   "enable incremental search (search while typing)
+set smartcase   "preserve case when replacing
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => File related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-filetype on
+filetype on     "show filetype
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin/Path related
