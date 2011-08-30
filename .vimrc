@@ -1,5 +1,4 @@
-source $MYVIM/.vimruntime
-
+set runtimepath^=$MYVIM
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General settings 
