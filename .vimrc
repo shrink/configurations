@@ -55,6 +55,5 @@ let g:NERDTreeWinSize = 50
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Startup stuff 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd VimEnter * TlistOpen
 autocmd VimEnter * NERDTree ~/
 
