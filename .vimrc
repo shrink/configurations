@@ -30,6 +30,8 @@ set number
 " => Search related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set ignorecase
+set incsearch
+set smartcase
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => File related
