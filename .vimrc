@@ -63,5 +63,5 @@ let g:NERDTreeWinSize = 50
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Startup stuff 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd VimEnter * NERDTree ~/
+autocmd VimEnter * NERDTree . 
 
