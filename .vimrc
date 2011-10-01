@@ -44,6 +44,8 @@ set smartcase   "preserve case when replacing
 " => File related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype on     "show filetype
+filetype plugin on
+filetype indent on
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin/Path related
