@@ -26,7 +26,7 @@ set autoindent    "enable auto indentation
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Color/display related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-color slate     "choose color scheme
+color desert    "choose color scheme
 set hls!        "highlight search hits
 syntax enable   "enable syntax highlighting
 set showmatch   "show matching braces/brackets/parens
