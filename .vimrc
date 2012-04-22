@@ -32,6 +32,8 @@ syntax enable   "enable syntax highlighting
 set showmatch   "show matching braces/brackets/parens
 set number      "display line numbers
 set cul         "highlight current line
+set lbr         "break long lines at word boundaries
+au BufNewFile,BufRead *.md set filetype=markdown "use md files ad markdown
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Search related
@@ -59,7 +61,7 @@ let g:miniBufExplModSelTarget = 1
 command BX MiniBufExpl
 
 " Variables for NERDtree
-let g:NERDTreeWinSize = 50
+let g:NERDTreeWinSize = 35
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Startup stuff 
