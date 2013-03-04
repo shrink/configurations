@@ -1,10 +1,6 @@
-This repo contains the settings and plugins that I use for the VIM editor.
+Setup
+=
+ 1. clone the repo somewhere
+ 1. symlink `vimrc` to your `.vimrc`
+ 1. symlink `vim` directory to our `.vim`
 
-Feel free to use them or to fork and improve them. I'm open to suggestions.
-
-## Setup
-
-1. Clone the repo anywhere
-1. set the $MYVIM environment variable to the path of the repo directory
-1. set the $VIMINIT environment variable to "source $MYVIM/.vimrc"
-1. launch VIM and enjoy your code :)
