@@ -49,7 +49,7 @@ set laststatus=2    "always show the status bar even if there's only one window
 set cursorline
 set cursorcolumn
 
-set statusline=%t       "tail of the filename
+set statusline=%f       "tail of the filename
 set statusline+=[%{strlen(&fenc)?&fenc:'none'}, "file encoding
 set statusline+=%{&ff}] "file format
 set statusline+=%h      "help file flag
