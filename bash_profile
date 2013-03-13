@@ -10,5 +10,6 @@ done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 # include evertything in the include directory
+LIB_DIR="$DIR/lib"
 INCLUDE_DIR="$DIR/bash_includes"
-for f in $INCLUDE_DIR/*; do source $f; done
+for f in $INCLUDE_DIR/*.sh; do source $f; done
