@@ -1,0 +1,12 @@
+[user]
+	email = leon.weidauer@googlemail.com
+	name = Leon Weidauer
+[push]
+	default = matching
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+
+[core]
+	excludesfile = /Users/leon/.gitignore
