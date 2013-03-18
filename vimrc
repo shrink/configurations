@@ -78,6 +78,14 @@ set hidden      "allow switching buffers without saving files, keeps unsaved cha
 
 au BufNewFile,BufRead *.md set filetype=markdown "use md files as markdown
 
+autocmd FileType markdown
+  \ setlocal shiftwidth=2 |
+  \ setlocal tabstop=2
+
+autocmd FileType jade
+  \ setlocal shiftwidth=2 |
+  \ setlocal tabstop=2
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Startup stuff 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
