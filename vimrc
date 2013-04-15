@@ -50,8 +50,7 @@ set laststatus=2    "always show the status bar even if there's only one window
 set cursorline
 set cursorcolumn
 
-"set scrolloff=3 " keep more context when scrolling off the end of a buffer
-set scrolloff=9999 " keep cursor in the vertical center by offsetting scrolling by a large amount
+set scrolloff=8     " keep more context when scrolling off the end of a buffer
 
 set list                    " show invisible characters
 set listchars=tab:›\        " set tabulator character
@@ -112,7 +111,8 @@ autocmd FileType vim
 
 autocmd FileType markdown
   \ setlocal shiftwidth=2 |
-  \ setlocal tabstop=2
+  \ setlocal tabstop=2 |
+  \ setlocal colorcolumn= "No line limits in markdown
 
 autocmd FileType jade
   \ setlocal shiftwidth=2 |
