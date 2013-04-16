@@ -33,6 +33,8 @@ set smarttab      "enable smart indetation
 "set fdm=indent    "set indentation mode
 set autoindent    "enable auto indentation
 
+set textwidth=120
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Color/display related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -58,8 +60,9 @@ set listchars+=trail:⋅      " set trailing whitespace character
 "set listchars+=eol:¬       " set end-of-line character
 set showbreak=↪             " the character to put to show a line has been wrapped
 
-let &colorcolumn="80,".join(range(120,999),",") " column at 80 chars, different background from 120 onward.
-highlight ColorColumn ctermbg=235 guibg=gray10 "colors for the colorcolumns
+set colorcolumn=80
+highlight ColorColumn ctermbg=123 guibg=gray10 "colors for the colorcolumns
+
 set showcmd                 " show command characters
 set showmode                " show the current (paste) mode on the open buffer
 
