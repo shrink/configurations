@@ -152,6 +152,7 @@ noremap <Leader>b :FufBuffer <Enter>
 noremap <Leader>n :NERDTreeToggle <Enter>
 noremap <Leader>h :nohl <Enter>
 nnoremap <leader>stw :%s/\s\+$//<cr>:let @/=''<CR> " strip all trailing whitespace in the current file
+noremap <Leader>u :GundoToggle <Enter>
 
 vmap < <gv
 vmap > >gv
