@@ -20,4 +20,4 @@ alias mkdir='mkdir -pv'
 
 alias grep="grep --color"
 
-alias serve='python -m SimpleHTTPServer 8080'
+alias serve='python -m SimpleHTTPServer 9999'
