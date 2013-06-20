@@ -19,7 +19,7 @@ White="1;37"
 # echo colorize "Foobar" "Cyan"
 function colorize {
     Color=$2
-    Template="\\e[${!Color}m%s\\e[m"
+    Template="\[\\e[${!Color}m\]%s\[\\e[m\]"
     printf $Template $1
 }
 
